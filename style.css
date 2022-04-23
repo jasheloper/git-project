@@ -1,0 +1,55 @@
+html {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #2f3860;
+  color: #e3e3e3;
+  text-align: center;
+}
+a {
+  color: #b8c951;
+}
+a:hover {
+  color: #5667b1;
+}
+section.title {
+  padding-bottom: 6em;
+}
+section.title img {
+  padding: 1em;
+}
+section.title h1 {
+  text-transform: uppercase;
+  font-size: 3.3em;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #b8c951;
+}
+section.title h2 {
+  font-weight: 300;
+  line-height: 2;
+}
+section.coming-soon {
+  font-size: 1.7em;
+  font-weight: 600;
+  padding-bottom: 4em;
+}
+section.message {
+  line-height: 2;
+  padding-bottom: 1em;
+}
+section.connect img {
+  padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+  section.title {
+    padding-bottom: 3.5em;
+  }
+  section.title h1 {
+    font-size: 2.2em;
+  }
+  section.coming-soon {
+    padding-bottom: 2em;
+  }
+}
